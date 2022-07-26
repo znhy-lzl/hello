@@ -1,5 +1,7 @@
 package hello
 
-func Hello() string {
-	return "Hello, world!"
+import "fmt"
+
+func Hello() {
+	fmt.Println("Hello, I'm lizhenlin")
 }
